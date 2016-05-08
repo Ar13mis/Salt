@@ -14,6 +14,14 @@ android {
 
         instrumentTest.setRoot('tests')
     }
+    lintOptions {
+        // if true, generate a text report of issues (false by default)
+        textReport true
+        // location to write the output; can be a file or 'stdout'
+        textOutput 'stdout'
+
+        disable 'IconMissingDensityFolder','GoogleAppIndexingWarning'
+    }
 }
 
 
