@@ -1,3 +1,3 @@
 Salt
 ===
-[![Build Status](https://travis-ci.org/jspauldo98/Salt.svg?branch=master)](https://travis-ci.org/jspauldo98/Salt?branch=master)
+[![Build Status](https://travis-ci.org/boomboxInc/Salt.svg?branch=master)](https://travis-ci.org/boomboxInc/Salt?branch=master)
