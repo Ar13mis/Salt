@@ -6,14 +6,14 @@ import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
 import com.spaulding.salt.Salt;
 
 public class HtmlLauncher extends GwtApplication {
-
         @Override
         public GwtApplicationConfiguration getConfig () {
-                return new GwtApplicationConfiguration(480, 320);
+                GwtApplicationConfiguration cfg = new GwtApplicationConfiguration(480, 320);
+                return cfg;
         }
 
         @Override
-        public ApplicationListener getApplicationListener () {
+        public ApplicationListener createApplicationListener () {
                 return new Salt();
         }
 }
